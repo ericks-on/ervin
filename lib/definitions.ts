@@ -1,4 +1,3 @@
-import { IconNode, LucideProps } from "lucide-react";
 
 export type Stats = {
     value: string;

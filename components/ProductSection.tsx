@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { Server, Database, Code, Cpu, LineChart, Video } from 'lucide-react';
+import Image from 'next/image';
 
 // Updated tech-focused products data
 const techProducts = [
@@ -108,7 +109,9 @@ export const ProductsSection = () => {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col"
               >
                 <div className="relative">
-                  <img 
+                  <Image
+                    width={500}
+                    height={300} 
                     src={product.image} 
                     alt={`${product.category} illustration`}
                     className="w-full h-48 object-cover"

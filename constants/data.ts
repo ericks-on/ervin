@@ -1,4 +1,3 @@
-import { Computer, Database, Truck } from "lucide-react";
 import { Product, Service, Stats, Value } from "@/lib/definitions";
 
 export const stats: Stats[] = [

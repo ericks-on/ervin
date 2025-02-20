@@ -67,7 +67,7 @@ export const TestimonialsSection = () => {
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 to-transparent rounded-xl pointer-events-none" />
             <Quote className="w-12 h-12 mx-auto mb-6 text-secondary opacity-80" />
             <p className="text-lg md:text-xl text-gray-700 mb-8 italic">
-              "{testimonials[currentIndex].text}"
+              &quot;{testimonials[currentIndex].text}&quot;
             </p>
             <div className="flex flex-col items-center">
               <div className="w-12 h-1 bg-secondary/30 rounded-full mb-4"></div>
